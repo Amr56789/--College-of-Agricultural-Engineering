@@ -1,0 +1,886 @@
+ *{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+      scroll-behavior: smooth;
+
+ }
+   header{
+       width: 100%;
+       height: 80px;
+       background: black;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       padding: 0 60px;
+
+   }
+   .logo img{
+              width: 60px;
+              padding-top: 90px;
+   }
+   #x1{
+      color: #ccc;
+      font-size: 12px;
+      
+      margin-bottom:90px;
+      margin-left:-15px ;
+      margin-top: -5px;
+      
+   }
+   .hamburger{
+      display: none;
+   }
+
+   .nav-bar ul{
+      display: flex;
+      list-style-type: none;
+   }
+
+   .nav-bar ul li a{
+         display: block;
+         color: white;
+         font-size: 20px;
+         font-weight: bold;
+         padding: 10px 13px;
+         text-decoration: none;
+        cursor: pointer;
+        list-style-type: none;
+
+
+   }
+   .nav-bar ul li a:hover{
+      color: darkgoldenrod;
+      transition: 1s;
+
+   }
+
+
+      
+  
+
+  .carsour{
+   height: 100vh;
+    display: flex;
+    align-items: center;
+   background-image: url(img/cover.jpg);
+     background-size: cover;
+     background-attachment: fixed;
+     background-blend-mode: overlay;
+     background-color: rgb(0, 0, 0, .4);
+    padding: 0px 600px; 
+    text-align: center;
+  }
+ 
+ 
+  .carsour button{
+   padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px ;
+    cursor: pointer;
+    background-color: rgb(2, 48, 0);
+    color: white;
+    border-radius: 50px 50px 50px 50px ;
+    box-shadow: 1px 1px 15px black;
+    display: inline-block;
+    margin-top: 10px ;
+    transition: ease 1s ;
+   
+  }
+
+  .carsour button:hover{
+   font-size: 15px;
+   background-color: darkgoldenrod;
+   transition: 1s ;
+  }
+  .services{
+    height: 70vh;
+  }
+   .services h2{
+      text-align: center;
+      margin-top: 50px;
+    
+      
+   }
+
+
+     .services .container{
+      display: flex;
+      flex-wrap: wrap;
+      padding: 80px 60px ;
+      justify-content: center;
+      align-items: center;
+     }
+     .services .card{
+        
+        margin-right: 20px ;
+        box-shadow: 3px 3px 6px 6px #ccc;
+        padding: 15px ;
+        width: 20em;
+        margin-bottom: 10px;
+        text-align: center;
+         border-radius: 50px 50px 50px 50px ;
+         background-color: rgb(13, 15, 20);
+       
+        
+     }
+     .card h3{
+     color: rgb(255, 255, 255);
+     text-align: center;
+     font-weight: 1000;
+     
+     }
+     .card p{
+      font-size: 14px;
+      color: darkgoldenrod;
+      text-align: center;
+      text-decoration: none;
+      color: darkgoldenrod;
+     }
+     .card a{
+      text-decoration: none;
+      color: darkgreen;
+       padding: 60px;
+       text-shadow: 3px 3px 20px white;
+        
+       
+      
+     }
+     #m1{
+      color: darkgoldenrod;
+      padding: 20px ;
+      font-size: 20px;
+      text-shadow: 3px 3px 20px white;
+     }
+     #m2{
+      color: darkgoldenrod;
+      padding: 20px ;
+      font-size: 20px;
+      text-shadow: 3px 3px 20px white;
+     }
+     #m3{
+      color: darkgoldenrod;
+      padding: 20px ;
+      font-size: 20px;
+      text-shadow: 3px 3px 20px white;
+     }
+     #m4{
+      color: darkgoldenrod;
+      padding: 20px ;
+      font-size: 20px;
+      text-shadow: 3px 3px 20px white;
+     }
+  
+
+     .protofilio{
+      background-color: #2c3e50;
+      text-align: center;
+      padding:  30px 10px;
+     }
+     .protofilio h2{
+      padding-top: 50px;
+      padding-bottom: 50px;
+      color: aliceblue;
+      
+     }
+     
+      .protofilio .container{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+        
+      }
+      .protofilio .card{
+         background-color: rgb(0, 0, 0);
+         border: solid;
+         border-radius: 50px  ;
+        margin-right: 23px ;  
+               
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+        
+        overflow: hidden;
+       
+        width: 15em;
+    
+      }
+      .protofilio .card:hover{
+          
+
+
+
+      }  
+     .protofilio button{ 
+           border-radius: 15px;
+           color: aliceblue;
+         background-color: rgb(2, 48, 0);
+          padding: 5px 15px;
+          border: none;
+         margin-top: 10px;
+     }
+     .h15{
+      background-image: url(monshaa.jpg);
+      background-size: cover;
+      padding: 70px;
+      width: 100%;
+      background-position: center;
+     }
+     .h12{
+      background-image: url(bestem.jpg);
+      background-size: cover;
+      padding: 80px;
+      width: 100%;
+      background-position: center;
+     }
+     .h13{
+      background-image: url(taaasnee.jpg);
+      background-size: cover;
+      padding: 80px;
+      width: 100%;
+      background-position: center;
+     }
+     .h14{
+      background-image: url(monshaa.jpg);
+      background-size: cover;
+      padding: 80px;
+      width: 100%;
+      background-position: center;
+     }
+     #h11{
+      background-image: url(img/الري\ الحديث.jpg   );
+      background-size: cover;
+      padding: 70px;
+      width: 100%;
+      background-position: center;
+     }
+      .protofilio .card-desc{
+         margin: 0 8px;
+     }
+
+     .notilla{
+      padding: 50px 50px ;
+      display: flex;
+      align-items:center;
+     }
+     .notilla p{
+      align-items: center;
+
+      
+      
+
+     }
+    .notilla-desc{
+               width: 60%;
+               text-align: center;
+               
+           
+               
+               
+     }
+     
+   .notilla-img{
+      width: 40%;
+      margin-right: 20px;
+   }
+   .Alroya{
+      padding: 50px 50px ;
+      display: flex;
+      align-items: center;
+   }
+   .Alroya-desc{
+           width: 60%;
+           text-align: center;
+
+   }
+   .Alroya p{
+      text-align: center;
+
+   }
+   .Alroya-img{
+      width: 40%;
+
+   }
+   .Aboutus{
+      padding: 50px 50px ;
+      display: flex;
+      
+   }
+   .Aboutus-decs{
+      width: 60%;
+      text-align: center;
+      padding-top: 40px;
+      padding-bottom: 40px;
+
+   }
+   .Aboutus-img{
+      width: 40%;
+      padding-left: 40PX;
+
+   }
+   .Aboutus p{
+      text-align: center;
+   }
+  
+
+
+
+
+
+   .protofolio{
+      
+      text-align: center;
+      padding:  30px 10px;
+      
+     }
+     .protofolio h2{
+      padding-top: 100px;
+      padding-bottom: 50px;
+        
+      color: rgb(0, 0, 0);
+      
+     }
+     
+      .protofolio .conteiner{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         
+        
+      }
+      .protofolio .card{
+         background-color: rgb(0, 0, 0);
+         border: solid;
+         border-radius: 50px  ;
+         margin-right: 30px;
+               
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+        
+        overflow: hidden;
+       
+        width: 15em;
+        height: 20em;
+    
+      }
+      .protofolio .card:hover{
+          
+
+
+
+      }  
+      #h16{
+         background-image: url(soalt.png);
+      background-size: cover;
+      width: 100%;
+      padding: 95px;
+     background-position: center;
+     }
+
+     #h17{
+         background-image: url(oop.png); 
+      background-size: cover;
+      width: 100%;
+      padding: 95px;
+     background-position: center;
+     }
+
+     #h18{
+         background-image: url(salaha.jpg);
+      background-size: cover;
+      width: 100%;
+      padding: 95px;
+     background-position: center;
+     }
+
+     #h19{
+         background-image: url(abdo.jpg);
+      background-size: cover;
+      width: 100%;
+      padding: 95px;
+     background-position: center;
+     }
+
+     #h20{
+         background-image: url(taah.png);
+      background-size: cover;
+      width: 100%;
+      padding: 95px;
+     background-position: center;
+     }
+
+     #h21{
+         background-image: url(body.jpg);
+      background-size: cover;
+      width: 100%;
+      padding: 95px;
+     background-position: center;
+     }
+     #h22{
+      background-image: url(said.jpg);
+   background-size: cover;
+   width: 100%;
+   padding: 95px;
+  background-position: center;
+  }
+  #h23{
+   background-image: url(hema.jpg);
+background-size: cover;
+width: 100%;
+padding: 95px;
+background-position: center;
+}
+#h24{
+   background-image: url(hissen.jpg);
+background-size: cover;
+width: 100%;
+padding: 95px;
+background-position: center;
+}
+     
+     #h15{
+      background-image: url(zabady.jpg);
+      background-size: cover;
+      padding: 95px;
+      width: 100%;
+      background-position: center;
+     }
+     #h14{
+      background-image: url(tail.jpg);
+      background-size: cover;
+      padding: 95px;
+      width: 100%;
+      background-position: center;
+     }
+     #h13{
+      background-image: url(badr.jpg);
+      background-size: cover;
+      padding: 95px;
+      width: 100%;
+      background-position: center;
+      text-align: center;
+     }  
+ 
+     #h12{
+      background-image: url(doosh.png);
+   background-size: cover;
+   width: 100%;
+   padding: 95px;
+  background-position: center;
+  }
+
+    
+     #h10{
+         background-image: url(samir.jpg);
+      background-size: cover;
+      width: 100%;
+      padding: 95px;
+     background-position: center;
+     }
+
+     #h25{
+        background-image: url(roby.jpg); 
+      background-size: cover;
+      width: 100%;
+      padding: 95px;
+     background-position: center;
+     }
+
+    
+
+    
+      .protofilio .card-desc{
+         margin: 0 8px;
+      }
+       
+    
+   .map{ 
+      padding: 100px;
+      display: flex;
+      justify-content: center;
+   }
+   .map div{
+      width: 100%;
+      box-shadow: 0 10px 35px  0px black;
+      padding: 20px;
+   }
+     
+   .map iframe{
+      width: 100%;
+   }
+.social-links{
+   display: flex;
+justify-content: center;
+margin-bottom: 50px;
+margin-top: 50px;
+ letter-spacing: 40px;
+ margin-left: 40px;
+
+  
+}
+.social-links a{
+   width: 80px;
+   height: 80px;
+   text-align: center;
+   text-decoration: none;
+   color: #000;
+   box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
+   margin: 0 30px;
+   border-radius: 50%;
+   position: relative;
+   text-indent: 12.5px;
+   overflow: hidden;
+   transition: transform 0.5s;
+   
+}
+ 
+.social-links a .fa-brands {
+   font-size: 30px;
+   line-height: 80px;
+   position: relative;
+   z-index: 10;
+   transition: color 0.5s;
+}
+.social-links a::after{
+   content: '';
+   width: 100%;
+   height: 100%;
+   top: -90px;
+   left: 0;
+   background: linear-gradient(-45deg, #000000 ,#b8aa0d);
+   position: absolute;
+   transition: 0.5s;
+}
+.social-links a:hover::after{
+   top: 0;
+}
+.social-links a:hover .fa-brands{
+   color: #fff;
+}
+.social-links a:hover{
+   transform: translateY(-10px);
+}
+
+#soso{
+   text-align: center;
+   font-size: 25px;
+
+}
+   
+
+     footer{
+      text-align: center;
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+     }
+     footer a{
+      color: black;
+      text-decoration: none;
+     font-weight: bold;
+     font-family: cursive;
+
+
+     }
+     footer a:hover{
+      color: darkgoldenrod;
+     }
+  
+
+     .up{
+      position: fixed;
+      bottom: 10px ;
+      right: 50px;
+      background-color: black;
+       padding: 10px;
+       border-radius: 50%;
+       width: 40px;
+       height: 40px;
+       justify-content: center;
+       align-items: center;
+       display: flex;
+       color: white;
+     }
+     
+     .up:hover{
+      background-color: darkgoldenrod;
+      transition: 1s;
+      padding: 15px;
+    
+     }
+     #mariam{
+      width: 2%;
+      padding: 10px 2px;
+     text-align: right;
+      
+      box-sizing: border-box;
+      color: bisque;
+      font-size: 30px;
+      padding: 20px 40px;
+      display: none  ;
+
+      
+     }
+
+    @media only screen and (min-width: 1200px){
+      header{
+         padding:0 50px;
+         
+      }
+      .carsour{ 
+         padding: 0px 100px;
+         justify-content: center;
+ 
+       }
+       .services{
+          height:50vh;
+        
+          
+          
+       }
+       
+        .containeer{
+          width: 250px;
+          display: flex;
+         padding-left: 250px;
+         margin-top: 60px;
+          
+       }
+       
+       
+      .services .container{
+          padding: 20px 50px;
+         
+       }
+     
+         
+       }
+       .protofilio .container{
+          
+          
+         
+         
+       }
+       .protofilio .card{
+            
+            width: 12em;
+            padding-left: 2px;
+            padding-right: 2px;
+            margin-left: 20px;
+            margin-right: 20px;
+          
+            margin-top: 20px;
+
+       }
+       .notilla{
+         height: 80vh;
+       }
+       .notilla-desc{
+          font-size: 18px;
+          font-size: larger;
+          
+          
+
+        
+       }
+       .notilla-img{
+         margin-right: 200px;
+       }
+       .Alroya-desc{
+          font-size: 18px;
+          font-size: larger;
+          padding-left: 100px;
+
+
+       }
+  
+   
+         @media only screen and (max-width:900px){
+            .hamburger {
+               display: block;
+
+               cursor: pointer;
+            }
+            .hamburger .line {
+               width: 30px;
+               height: 3px;
+               background: white;
+               margin: 6px 0;
+            }
+            
+            .nav-bar {
+               height: 0;
+               position: absolute;
+               top:80px;
+               left: 0;
+               right: 0;
+               width: 100vw;
+               background: #11101b;
+               transition: 0.2s;
+               overflow: hidden;
+
+
+     } 
+     .nav-bar.active {  
+      height: 450px;
+   }
+     .nav-bar ul{
+      display: block;
+      width: fit-content;
+      margin: 50px auto 0 auto;
+     margin-top: 10px;
+      text-align: center;
+      transition: 0.5s;
+      opacity: 0;
+     }
+     .nav-bar.active ul {
+      opacity: 1;
+     }
+     .nav-bar ul li a{
+      margin-bottom: 12px;
+   
+     }
+     .carsour{ 
+      padding: 0px 100px;
+
+    }
+    .services{
+       height: 250vh;
+       
+    }
+    .services .container{
+       padding: 20px 90px;
+      
+    }
+    .protofilio{
+      
+      
+    }
+    .protofilio .container{
+       
+       
+      
+      
+    }
+    .protofilio .card{
+         
+         width: 20em;
+         padding-left: 2px;
+         padding-right: 2px;
+         margin-left: 20px;
+         margin-right: 20px;
+       
+         margin-top: 20px;
+    }
+    .notilla-desc{
+       font-size: 12px;
+     
+    }
+    .notilla-img{
+      margin-right: 200px;
+    }
+    .Alroya-desc{
+       font-size: 12px;
+    }
+    @media screen and (max-width:400px) {
+      .carsour{ 
+         padding: 0px 100px;
+   
+       }
+       .services{
+          height: 110vh;
+   
+          
+       }
+       .services .container{
+          padding: 20px 90px;
+         
+       }
+       .protofilio{
+         
+         
+       }
+       .protofilio .container{
+          
+          
+         
+         
+       }
+       .protofilio .card{
+            
+            width: 20em;
+            padding-left: 2px;
+            padding-right: 2px;
+            margin-left: 20px;
+            margin-right: 20px;
+          
+            margin-top: 20px;
+       }
+       .notilla-desc{
+          font-size: 15px;
+         margin-left: 70px;
+          text-shadow: 1px 1px 10px black;
+            margin-bottom: 50px;
+          
+        
+        
+       }
+       .notilla-img{
+        width: 90px;
+        margin-right: 2px;
+        margin-left: -90px;
+        opacity: 0.5;
+       
+       }
+       .Alroya-desc{
+         width: 100vh;
+          font-size: 15px;
+          margin-left: 90px;
+          text-shadow: 1px 1px 10px black;
+          
+       }
+       .Alroya-img{
+         width: 100px;
+         margin-right: 2px;
+         margin-left: -120px;
+         opacity: 0.5;
+       }
+       .Aboutus-img{
+       width: 2%;
+
+       }
+       .Aboutus-decs{
+         font-size: 15px;
+          margin-left: 90px;
+          text-shadow: 1px 1px 10px black;
+          margin-top:50px ;
+          text-align: center;
+         
+       }
+      }
+   
+    .map{
+      width: 400px;
+      padding: 10px;
+    }
+    .map div{
+      padding: 2px;
+    }
+    .up{
+      right: 120px;
+      width: 30px;
+      height: 30px;
+    }
+    .social-links{
+      margin-left: -20px;
+    }
+    .social-links a .fa-brands {
+      margin-left: -2px;
+    }
+   }
+  
+     
+      
+
+   
+    
+     
